@@ -1,0 +1,126 @@
+RespubLit Review Report Evaluator (RespubLitRRE) — LoRA Adapter and Gradio Application
+License: Open Responsible AI License for Models – Non-Commercial (OpenRAIL-M-NC)
+
+Copyright (c) 2025
+RespubLit (https://www.respublit.org)
+All rights reserved.
+
+==============================================================================
+SECTION 1 — DEFINITIONS
+==============================================================================
+
+“Model” refers to the LoRA adapter weights, configuration files, tokenizer
+files, and associated inference scripts released in this repository.
+
+“Generated Output” refers to any text, evaluation, score, JSON response, or
+other output produced by running the Model or the Gradio application.
+
+“Non-Commercial Use” means any use that is not intended for, or directed toward,
+commercial advantage or monetary compensation.
+
+“Commercial Use” means any use of the Model, the Gradio application, or the
+Generated Output in a product, service, system, or workflow that generates
+revenue (directly or indirectly), including consultancy, subscription,
+evaluation services, SaaS tools, internal organizational systems, or
+integrations that contribute to monetized activities.
+
+==============================================================================  
+SECTION 2 — PERMITTED USE (NON-COMMERCIAL)
+==============================================================================
+
+Subject to the terms below, you are granted a perpetual, worldwide,
+non-exclusive, royalty-free license to:
+
+1. Use, copy, and run the Model and Gradio application for NON-COMMERCIAL
+   purposes including:
+   - academic research
+   - personal experimentation
+   - educational use
+   - institutional evaluation projects that do not generate revenue
+
+2. Modify or adapt the Model or code, provided that:
+   - all modified versions remain under this same NON-COMMERCIAL license
+   - you clearly indicate modifications
+
+3. Share or redistribute the Model or code, provided that:
+   - this license is included verbatim
+   - all redistribution remains NON-COMMERCIAL
+
+==============================================================================  
+SECTION 3 — PROHIBITED USE WITHOUT PERMISSION
+==============================================================================
+
+The following uses are expressly prohibited unless you obtain **written
+permission** (commercial license) from RespubLit:
+
+1. **Commercial use of any kind**, including:
+   - integration into paid or subscription-based platforms
+   - deployment in commercial SaaS tools
+   - use inside consultancy processes or evaluation services
+   - integration into institutional workflows where the organization earns
+     money or receives paid contracts
+   - internal use by for-profit entities for research evaluation, client work,
+     grant analysis, or any revenue-related activity
+   - sale, sublicensing, or distribution as part of a commercial product
+
+2. Use of the Model or Generated Output to make automated funding decisions or
+   evaluations without human oversight.
+
+3. Use that violates laws, infringes rights, harms individuals, or manipulates
+   academic processes.
+
+4. Use for surveillance, profiling, political decision-making, or discriminatory
+   practices.
+
+==============================================================================  
+SECTION 4 — COMMERCIAL LICENSING
+==============================================================================
+
+Organizations, companies, consultancies, and institutions may request a
+commercial license.
+
+To obtain a commercial license, contact:
+
+RespubLit  
+Website: https://www.respublit.org  
+Email: [YOUR CONTACT EMAIL HERE]
+
+==============================================================================  
+SECTION 5 — NO WARRANTY
+==============================================================================
+
+THE MODEL, CODE, AND APPLICATION ARE PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY
+KIND. THE COPYRIGHT HOLDER IS NOT LIABLE FOR ANY CLAIMS, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THE USE OF THE MODEL, CODE, OR GENERATED OUTPUT.
+
+==============================================================================  
+SECTION 6 — ETHICAL USE REQUIREMENTS
+==============================================================================
+
+Users agree NOT to:
+- use the Model to manipulate funding outcomes;
+- suppress reviewers or retaliate against individuals;
+- conduct surveillance of reviewers or research actors;
+- generate harmful, biased, or discriminatory outputs intentionally;
+- misrepresent the capabilities or limitations of the Model.
+
+A human reviewer must remain in the loop for all evaluation or decision-making.
+
+==============================================================================  
+SECTION 7 — DERIVATIVE MODELS
+==============================================================================
+
+Any derivative or fine-tuned versions:
+- MUST remain under this NON-COMMERCIAL license, and
+- MUST include this license text.
+
+==============================================================================  
+SECTION 8 — TERMINATION
+==============================================================================
+
+Violation of any term of this License automatically terminates your rights to
+use the Model, Generated Output, or any modified versions.
+
+==============================================================================  
+END OF LICENSE
+==============================================================================
