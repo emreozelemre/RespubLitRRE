@@ -2,11 +2,7 @@
 
 Official Gradio application and inference pipeline for the RespubLit Review Report Evaluator (RespubLitRRE).
 
-This repository contains the **official Gradio application and inference pipeline**
-for the *RespubLit Review Report Evaluator (RespubLitRRE)*.
-
-RespubLitRRE is a specialised language model (Mistral-7B + LoRA) designed to
-assess the **quality of peer review reports**. It evaluates:
+RespubLitRRE is a specialised language model (Mistral-7B + LoRA) designed to assess the **quality of peer review reports**. It evaluates:
 
 - **Technical Rigor (TR)**
 - **Constructive Feedback (CF)**
@@ -53,34 +49,7 @@ using 8-bit quantization by default (via `BitsAndBytesConfig(load_in_8bit=True)`
 You can treat `RespubLitRRE_Gradio.py` as the **canonical implementation**
 of the RespubLitRRE pipeline.
 
----
-
-## 🚀 How to install and run
-
-1. Clone the repo
-
-git clone https://github.com/emreozelemre/RespubLitRRE.git
-
-cd RespubLitRRE
-
-2. Create and activate a virtual environment (optional but recommended)
-
-python -m venv venv
-
-source venv/bin/activate  **(on Linux / macOS)** 
-
-.\venv\Scripts\activate  **(on Windows)**
-
-3. Install dependencies
-
-pip install -r requirements.txt
-
-4. Run the Gradio app
-
-python RespubLitRRE_Gradio.py
-
-
-**This will:**
+**This app will:**
 
 Load the base Mistral model in 8-bit,
 
