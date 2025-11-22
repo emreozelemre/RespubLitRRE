@@ -1,0 +1,151 @@
+RespubLitRRE – Installation Instructions
+
+GENERAL REQUIREMENTS (ALL PLATFORMS)
+
+Create a free Hugging Face account:
+https://huggingface.co/join
+
+Request access to the gated LoRA adapter:
+https://huggingface.co/emreozelemre/RespubLitRRE-LoRA
+
+Click "Request Access" and wait for automatic approval.
+
+Log into Hugging Face locally (after Python is installed):
+huggingface-cli login
+Paste your Hugging Face access token.
+
+===========================================================
+WINDOWS INSTALLATION (PowerShell)
+
+Install Python from:
+https://www.python.org/downloads/windows/
+
+Make sure to tick "Add Python to PATH" during installation.
+
+Install Git from:
+https://git-scm.com/download/win
+
+Open PowerShell:
+Start Menu -> type "PowerShell" -> Enter.
+
+Download the application:
+git clone https://github.com/emreozelemre/RespubLitRRE.git
+
+cd RespubLitRRE
+
+Create and activate a virtual environment:
+python -m venv .venv
+..venv\Scripts\Activate.ps1
+
+Install required packages:
+pip install --upgrade pip
+pip install -r requirements.txt
+
+Log into Hugging Face:
+huggingface-cli login
+
+Run the application:
+python RespubLitRRE_Gradio.py
+
+Open the browser and go to:
+http://localhost:7860
+
+===========================================================
+MACOS INSTALLATION (Terminal)
+
+Install Homebrew (if not installed):
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+)"
+
+Install Python and Git:
+brew install python git git-lfs
+git lfs install
+
+Download the application:
+git clone https://github.com/emreozelemre/RespubLitRRE.git
+
+cd RespubLitRRE
+
+Create and activate the virtual environment:
+python3 -m venv .venv
+source .venv/bin/activate
+
+Install dependencies:
+pip install --upgrade pip
+pip install -r requirements.txt
+
+Log into Hugging Face:
+huggingface-cli login
+
+Run the application:
+python RespubLitRRE_Gradio.py
+
+Open the browser and go to:
+http://localhost:7860
+
+===========================================================
+UBUNTU / DEBIAN INSTALLATION (Terminal)
+
+Install required system packages:
+sudo apt update
+sudo apt install -y python3 python3-venv python3-pip git git-lfs
+git lfs install
+
+Download the application:
+git clone https://github.com/emreozelemre/RespubLitRRE.git
+
+cd RespubLitRRE
+
+Create and activate the virtual environment:
+python3 -m venv .venv
+source .venv/bin/activate
+
+Install Python dependencies:
+pip install --upgrade pip
+pip install -r requirements.txt
+
+Log into Hugging Face:
+huggingface-cli login
+
+Run the application:
+python RespubLitRRE_Gradio.py
+
+Open the browser and go to:
+http://localhost:7860
+
+===========================================================
+FEDORA / RHEL INSTALLATION (Terminal)
+
+Install required tools:
+sudo dnf install -y python3 python3-pip python3-virtualenv git git-lfs
+git lfs install
+
+Download the application:
+git clone https://github.com/emreozelemre/RespubLitRRE.git
+
+cd RespubLitRRE
+
+Create and activate the virtual environment:
+python3 -m venv .venv
+source .venv/bin/activate
+
+Install dependencies:
+pip install --upgrade pip
+pip install -r requirements.txt
+
+Log into Hugging Face:
+huggingface-cli login
+
+Run the application:
+python RespubLitRRE_Gradio.py
+
+Open the browser and go to:
+http://localhost:7860
+
+===========================================================
+SUCCESS
+
+When the server starts, you will see something like:
+Running on local URL: http://127.0.0.1:7860
+
+Open this link in your browser to use the application.
