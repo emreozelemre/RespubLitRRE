@@ -2,7 +2,9 @@ torch
 transformers
 peft
 bitsandbytes
-gradio
+gradio==5.49.1
 pandas
 pypdf
 python-docx
+sentencepiece
+protobuf
