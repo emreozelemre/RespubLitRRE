@@ -125,3 +125,22 @@ harmful, deceptive, or discriminatory applications.
 
 Always keep a human in the loop when using the outputs in evaluation or decision-making contexts.
 
+---
+
+<p align="center">
+  <b>💜 Support this project</b><br><br>
+  If the RespubLit Review Report Evaluator is useful for your work, you can buy me a coffee:
+</p>
+
+<p align="center">
+  <a href="https://paypal.me/emreozel/2" target="_blank">
+    <img 
+      src="https://img.shields.io/badge/Donate%202€%20(or%20more)-00457C?style=for-the-badge&logo=paypal&logoColor=white"
+      alt="Donate via PayPal"
+    />
+  </a>
+</p>
+
+---
+
+
