@@ -46,7 +46,8 @@ using 8-bit quantization by default (via `BitsAndBytesConfig(load_in_8bit=True)`
 - `RespubLitRRE_Gradio.py` — main app and pipeline (model loading, prompts, JSON parsing, UI) 
 - `requirements.txt` — Python dependencies 
 - `LICENSE` — Non-Commercial OpenRAIL-M licence (same as the model) 
-- `README.md` — this file 
+- `README.md` — this file
+- `Installation Instructions.pdf` — Comprehensive cross-platform installation guide 
 
 You can treat `RespubLitRRE_Gradio.py` as the **canonical implementation**
 of the RespubLitRRE pipeline.
