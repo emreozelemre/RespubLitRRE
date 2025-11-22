@@ -2,7 +2,9 @@
 
 Official Gradio application and inference pipeline for the RespubLit Review Report Evaluator (RespubLitRRE).
 
-RespubLitRRE is a specialised language model (Mistral-7B + LoRA) designed to assess the **quality of peer review reports**. It evaluates:
+RespubLitRRE is a specialised language model (Mistral-7B + LoRA) designed to assess the **quality of peer review reports**.
+
+It evaluates:
 
 - **Technical Rigor (TR)**
 - **Constructive Feedback (CF)**
